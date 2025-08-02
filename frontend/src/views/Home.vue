@@ -32,7 +32,7 @@ function cancelar() {
 <template>
   <div class="max-w-5xl mx-auto p-6 space-y-6">
     <!-- Título centrado -->
-    <h1 class="text-5xl font-extrabold text-center text-white">🗒️ Notas</h1>
+    <h1 class="text-5xl font-extrabold text-center text-white">🗒️ Mis Notas</h1>
 
     <!-- Botón agregar nota -->
     <div class="flex justify-end">

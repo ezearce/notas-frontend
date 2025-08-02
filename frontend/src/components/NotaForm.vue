@@ -35,7 +35,7 @@
       <button
         type="button"
         @click="$emit('cancelar')"
-        class="px-4 py-2 border border-gray-300 rounded hover:bg-gray-100"
+        class="px-4 py-2 border border-gray-300 rounded hover:bg-gray-500"
       >
         Cancelar
       </button>
