@@ -30,13 +30,15 @@ function cancelar() {
 </script>
 
 <template>
-  <div class="max-w-4xl mx-auto p-6 space-y-6">
-    <!-- Header -->
-    <div class="flex justify-between items-center mb-6">
-      <h1 class="text-4xl font-extrabold">🗒️ Notas</h1>
+  <div class="max-w-5xl mx-auto p-6 space-y-6">
+    <!-- Título centrado -->
+    <h1 class="text-5xl font-extrabold text-center text-white">🗒️ Notas</h1>
+
+    <!-- Botón agregar nota -->
+    <div class="flex justify-end">
       <button 
         @click="abrirForm"
-        class="ml-4 bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded"
+        class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded"
       >
         + Agregar nota
       </button>
@@ -53,7 +55,7 @@ function cancelar() {
       </div>
     </transition>
 
-    <!-- Listado en dos columnas -->
+    <!-- Listado -->
     <NotaList 
       :key="claveLista" 
       @editar="editarNota" 
