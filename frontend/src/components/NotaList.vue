@@ -25,19 +25,19 @@
           <div class="mt-3 md:mt-0 flex flex-wrap justify-center gap-2">
             <button 
               @click="$emit('editar', nota)"
-              class="w-[100px] px-3 py-1 bg-yellow-500 text-white rounded hover:bg-yellow-600"
+              class="w-[120px] sm:w-[90px] px-4 py-2 sm:px-2 sm:py-1 bg-yellow-500 text-white rounded hover:bg-yellow-600 text-base sm:text-sm"
             >
               ✏️ Editar
             </button>
             <button 
               @click="eliminarNota(nota.id)"
-              class="w-[100px] px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600"
+              class="w-[120px] sm:w-[90px] px-4 py-2 sm:px-2 sm:py-1 bg-red-500 text-white rounded hover:bg-red-600 text-base sm:text-sm"
             >
               🗑️ Eliminar
             </button>
             <button 
               @click="toggleArchivada(nota)"
-              class="w-[100px] px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-600"
+              class="w-[120px] sm:w-[90px] px-4 py-2 sm:px-2 sm:py-1 bg-blue-500 text-white rounded hover:bg-blue-600 text-base sm:text-sm"
             >
               📥 Archivar
             </button>
@@ -66,19 +66,19 @@
           <div class="mt-3 md:mt-0 flex flex-wrap justify-center gap-2">
             <button 
               @click="$emit('editar', nota)"
-              class="w-[100px] px-3 py-1 bg-yellow-500 text-white rounded hover:bg-yellow-600"
+              class="w-[120px] sm:w-[90px] px-4 py-2 sm:px-2 sm:py-1 bg-yellow-500 text-white rounded hover:bg-yellow-600 text-base sm:text-sm"
             >
               ✏️ Editar
             </button>
             <button 
               @click="eliminarNota(nota.id)"
-              class="w-[100px] px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600"
+              class="w-[120px] sm:w-[90px] px-4 py-2 sm:px-2 sm:py-1 bg-red-500 text-white rounded hover:bg-red-600 text-base sm:text-sm"
             >
               🗑️ Eliminar
             </button>
             <button 
               @click="toggleArchivada(nota)"
-              class="w-[100px] px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-600"
+              class="w-[120px] sm:w-[90px] px-4 py-2 sm:px-2 sm:py-1 bg-blue-500 text-white rounded hover:bg-blue-600 text-base sm:text-sm"
             >
               📤 Desarchivar
             </button>

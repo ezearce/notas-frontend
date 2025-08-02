@@ -35,13 +35,13 @@
       <button
         type="button"
         @click="$emit('cancelar')"
-        class="px-4 py-2 border border-gray-300 rounded hover:bg-gray-500"
+        class="px-4 py-2 sm:px-2 sm:py-1 border border-gray-300 rounded hover:bg-gray-500 text-base sm:text-sm"
       >
         Cancelar
       </button>
       <button
         type="submit"
-        class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
+        class="px-4 py-2 sm:px-2 sm:py-1 bg-green-600 text-white rounded hover:bg-green-700 text-base sm:text-sm"
       >
         Guardar
       </button>

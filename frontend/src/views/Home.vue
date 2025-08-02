@@ -38,7 +38,7 @@ function cancelar() {
     <div class="flex justify-end">
       <button 
         @click="abrirForm"
-        class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded"
+        class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 sm:px-2 sm:py-1 rounded text-base sm:text-sm"
       >
         + Agregar nota
       </button>
