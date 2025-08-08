@@ -1,6 +1,22 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #94d9ff; /* Fondo fijo azul claro */
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #94d9ff; /* Igual que el body para evitar bordes negros */
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -101,5 +117,16 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+
+@media (max-width: 640px) {
+  #app {
+    padding: 1rem; /* Menos padding en móviles */
+  }
+
+  li {
+    width: 100%; /* Las tarjetas ocupan todo el ancho disponible */
   }
 }
